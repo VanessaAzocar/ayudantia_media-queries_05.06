@@ -1,0 +1,43 @@
+  /* BREAKPOINTS: (el tamaño de la resolucion o responsive)
+  320px - 375px; Green
+  376px - 666px; yellow
+  677px - 1023px; red
+  1024px - 1600px; blue
+  */
+  
+  @media (min-width: 320px) and (max-width: 375px) {
+    body {
+      background-color: green;
+    }
+    h1 {
+      font-size: 50px;
+    }
+  }
+  
+  @media (min-width: 376px) and (max-width: 666px) {
+    body {
+      background-color: yellow;
+    }
+    h1 {
+      font-size: 60px;
+    }
+  }
+
+  @media (min-width: 677px) and (max-width: 1023px) {
+    body {
+      background-color:red;
+    }
+    h1 {
+      font-size: 70px;
+    }
+  }
+
+  @media (min-width: 1024px) and (max-width: 1600px) {
+    body {
+      background-color: blue;
+    }
+    h1 {
+      font-size: 80px;
+    }
+  }
+  
